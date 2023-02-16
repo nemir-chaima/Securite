@@ -9,7 +9,7 @@ SET time_zone = "+00:00";
 
 
 --
---
+
 --
 
 -- --------------------------------------------------------
@@ -28,6 +28,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 
 --
+-- Déchargement des données de la table `users`
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
